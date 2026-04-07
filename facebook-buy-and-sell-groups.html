@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="assets/css/vendor/slick.css" />
         <link rel="stylesheet" href="assets/css/vendor/aos.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
-        <title>Facebook Buy & Sell Groups</title>
+        <title>Facebook Buy & Sell Groups list</title>
         <style>
             .thumb>img{
                 width: 100px;
@@ -365,13 +365,13 @@
         <script src="assets/js/vendor/font-awesome.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
         <script>
-            $("#header").load("common/header.html");
-            $("#footer").load("common/footer.html");
+            $("#header").load("common/header.html?v=" + Date.now());
+            $("#footer").load("common/footer.html?v=" + Date.now());
         </script>
         <script>
-          const script = document.createElement("script");
+          /*const script = document.createElement("script");
           script.src = "database/facebook-buy-and-sell-groups.js?v=" + Date.now();
-          document.head.appendChild(script);
+          document.head.appendChild(script);*/
         </script>
         <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
         <script src="assets/js/vendor/waypoints.min.js"></script>
